@@ -1,0 +1,286 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "HazirlananWF/SendEmail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_password&Sequence_4",
+        "str_username&Sequence_4",
+        "str_WorkflowName&Sequence_1",
+        "str_SeqName&Sequence_2",
+        "str_SeqName&Sequence_3",
+        "str_ExcelPath&Sequence_4",
+        "str_CrMailAssetName&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_kuyruk&Sequence_40",
+        "kuyrukveri&Sequence_40",
+        "TransactionData&StateMachine_1",
+        "str_WIIDNumber&StateMachine_1",
+        "dtReport&StateMachine_1",
+        "rowCounter&Sequence_41",
+        "str_GlobalHashCode&Sequence_40",
+        "uiE_GlobalSha1Browser&Sequence_40",
+        "uie_GlobalAcmeBrowser&Sequence_40",
+        "str_WorkItemDetailsGlobal&Sequence_40",
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "uiE_GlobalSha1Browser&State_2",
+        "uie_GlobalAcmeBrowser&State_2",
+        "DT_FiltAcmeGlobal&Sequence_31",
+        "dtReport&Sequence_34",
+        "rowCounter&Sequence_35",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder",
+        "DT_FiltAcmeGlobal"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "HazirlananWF/workItem_Islemleri.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_acmeDetailsURL&Sequence_5",
+        "str_DetailsEnd&Sequence_4",
+        "str_WorkflowName&Sequence_2",
+        "str_SeqName&Sequence_2",
+        "Arr_StrGetDetails&Sequence_3",
+        "str_ClientID&Sequence_3",
+        "str_ClientCountry&Sequence_3",
+        "str_ClientName&Sequence_3",
+        "str_GetDetails&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_str_WIID_number",
+        "in_TransactionData",
+        "out_strWorkDetails",
+        "in_AcmeBrowser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "HazirlananWF/sha1_onlineProcess.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_ResultSha1&Sequence_4",
+        "str_WorkflowName&Sequence_2",
+        "str_SeqName&Sequence_2",
+        "str_typeName&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "str_WorkItemDetails",
+        "out_HashCode",
+        "in_Sha1Browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "HazirlananWF/ACME_update.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkflowName&Sequence_2",
+        "str_SeqName&Sequence_2",
+        "str_ClickName&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_WIID_Number",
+        "in_strHashCode",
+        "in_AcmeBrowser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_dt_Report",
+        "in_TransactionData",
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/write_toExcel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkflowName&Sequence_1",
+        "str_SeqName&Sequence_1",
+        "str_ExcelPath&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DT_FiltAcmeGlobal",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "HazirlananWF/Open_Login_Browser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkflowName&Sequence_1",
+        "str_AssetName&Sequence_1",
+        "str_typeName&Sequence_1",
+        "str_username&Sequence_1",
+        "str_SeqName&Sequence_2",
+        "str_AcmeURL&Sequence_3",
+        "str_Sha1URL&Sequence_3",
+        "scstr_password&Sequence_22",
+        "scstr_password&Sequence_4",
+        "str_typeName&Sequence_6",
+        "str_ClickName&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "uiE_AcmeBrowser",
+        "uiE_Sha1Browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tests/WorkflowTestCaseTemplate.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Config&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "uie_GlobalAcmeBrowser",
+        "DT_FiltAcmeGlobal",
+        "uiE_GlobalSha1Browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "HazirlananWF/take_WI5_filter.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_8",
+        "str_SeqName&Sequence_1",
+        "str_WorkflowName&Sequence_1",
+        "Filtered_DTWorkItems&Sequence_1",
+        "DT_WorkItems&Sequence_8",
+        "str_ExcelPath&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_AcmeBrowser",
+        "out_FilteredDTWorkItems",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "HazirlananWF/Queue_Cleaning.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkflowName&Sequence_1",
+        "str_SeqName&Sequence_1",
+        "str_quequePath&Sequence_2",
+        "queue_İtems&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "HazirlananWF/Add_Queue_Items.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkflowName&Sequence_2",
+        "str_SeqName&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_DT_FilteredAcme",
+        "in_QueueName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "HazirlananWF/Queue_Loading.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
